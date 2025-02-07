@@ -1,14 +1,14 @@
-Saturn Assembler                                       Thu Feb 06 17:40:09 2025
+Saturn Assembler                                       Fri Feb 07 00:11:18 2025
 V3.0.9 (04/15/2007)                                      primes.a       Page    1
 
     1             * File  primes.s        1
     2             * RPL
     3             * File  primes.s        2
-    4             * C:\Users\cmorgan\OneDrive - National Nonwovens\Documents\Debug4x\Projects\primes\sys\primes.s, part of the primes.hpp project, created by <> on 2/4/2025
+    4             * created 2/4/2025
     5             * File  primes.s        3
-    6
+    6             * Author: Christopher Morgan
     7             * File  primes.s        4
-    8             *|| Reading from C:\Users\cmorgan\OneDrive - National Nonwovens\Documents\Debug4x\Projects\primes\sys\primes.h
+    8             *|| Reading from C:\Users\kit\Documents\Debug4x\Projects\primes_sysRPL\primes.h
     9
    10             =RomId  EQU     #200
    11             * ROMID set to 200
@@ -61,7 +61,7 @@ V3.0.9 (04/15/2007)                                      primes.a       Page    
    56             * check if n < 1 or n == 2 or n == 3
    57             * File  primes.s        20
    58
-   59             *                       if n is a list, this is our answer. time to exit
+   59             *   if n is a list, this is our answer. time to exit
    60             * File  primes.s        22
    61 0004B 00000         CON(5)  =DUPTYPELIST?
    62 00050 00000         CON(5)  =IT
@@ -80,13 +80,13 @@ V3.0.9 (04/15/2007)                                      primes.a       Page    
    74 00073 00000         CON(5)  =SEMI
    75             * File  primes.s        27
    76
-   77             *                       create list, A and begin Seive of Eratothenes Algorithm
+   77             *   create list, A and begin Seive of Eratothenes Algorithm
    78             * File  primes.s        29
    79 00078 00000         CON(5)  =DOLIST
    80 0007D 00000         CON(5)  =FALSE
    81 00082 00000         CON(5)  =SEMI
    82             * push a 0 on the begining of a list to represent 1
-   83             *                       let a be a list of true bools in the amount of 2 through n
+   83             *   let a be a list of true bools in the amount of 2 through n
    84             * File  primes.s        31
    85 00087 00000         CON(5)  =DOLIST
    86 0008C 00000         CON(5)  =DOLAM
@@ -125,7 +125,7 @@ V3.0.9 (04/15/2007)                                      primes.a       Page    
   119 000F6 00000         CON(5)  =SEMI
   120             * File  primes.s        39
   121
-  122             *                       for i = 2, 3, 4, ..., not exceeding ƒn n do
+  122             *   for i = 2, 3, 4, ..., not exceeding ƒn n do
   123             * File  primes.s        41
   124 000FB 00000         CON(5)  =DOCOL
   125             * File  primes.s        42
@@ -435,7 +435,7 @@ V3.0.9 (04/15/2007)                                      primes.a       Page    
   420 00495 00000         CON(5)  =SEMI
   421             * File  primes.s        111
   422
-  423             *       graceful exit (free all local variables) and end program
+  423             * graceful exit (free all local variables) and end program
   424             * File  primes.s        113
   425 0049A       =GRACEFUL_EXIT
   426             * File  primes.s        114
@@ -446,7 +446,7 @@ V3.0.9 (04/15/2007)                                      primes.a       Page    
   431 004A4 00000         CON(5)  =xKILL
   432             * File  primes.s        117
   433 004A9 00000         CON(5)  =SEMI
-Saturn Assembler                                       Thu Feb 06 17:40:09 2025
+Saturn Assembler                                       Fri Feb 07 00:11:18 2025
 V3.0.9 (04/15/2007)   Symbol Table                       primes.a       Page    2
 
  #*                                Ext                   -   180   253
@@ -527,7 +527,7 @@ V3.0.9 (04/15/2007)   Symbol Table                       primes.a       Page    
  ~GRACEFUL_EXIT                    Ext                   -    72   358
  ~LESS_THAN_4                      Ext                   -    55
  ~xPRIMES                          Ext                   -    18
-Saturn Assembler                                       Thu Feb 06 17:40:09 2025
+Saturn Assembler                                       Fri Feb 07 00:11:18 2025
 V3.0.9 (04/15/2007)   Statistics                         primes.a       Page    3
 
 Input Parameters

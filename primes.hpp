@@ -30,5 +30,3 @@ LRFiles=
 file1=primes.s
 [Edit]
 edit2=>primes.s
-edit3=C:\Users\cmorgan\OneDrive - National Nonwovens\Documents\Debug4x\Projects\primes\primes.s
-edit4=C:\Users\cmorgan\OneDrive - National Nonwovens\Documents\Debug4x\Examples\Demo\Demo.s
