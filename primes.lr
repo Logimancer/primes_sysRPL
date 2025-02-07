@@ -1,0 +1,138 @@
+Saturn Loader, Ver. version 3.0.9, 08/03/10
+
+
+Output Module:
+Module=primes.o
+  Start=00000 End=0058E Length=0058F   Symbols=  67 References= 216
+  Date=Thu Feb 06 17:40:09 2025   Title=
+
+
+Source modules:
+Module=_head.o
+  Start=00000 End=00030 Length=00031
+  Date=Thu Feb 06 17:40:09 2025   Title=                                        Thu Feb 06 17:40:09 2025
+
+Module=_table.o
+  Start=00031 End=000BE Length=0008E
+  Date=Thu Feb 06 17:40:09 2025   Title=                                        Thu Feb 06 17:40:09 2025
+
+Module=primes.o
+  Start=000BF End=0056C Length=004AE
+  Date=Thu Feb 06 17:40:09 2025   Title=                                        Thu Feb 06 17:40:09 2025
+
+Module=_config.o
+  Start=0056D End=0058A Length=0001E
+  Date=Thu Feb 06 17:40:09 2025   Title=                                        Thu Feb 06 17:40:09 2025
+
+Module=_end.o
+  Start=0058B End=0058E Length=00004
+  Date=Thu Feb 06 17:40:09 2025   Title=                                        Thu Feb 06 17:40:09 2025
+
+Saturn Cross Reference Listing
+
+#*                               *       - 00278 00359
+#+                               *       - 001E1 0027D 0035E
+#<                               *       - 0038D
+
+%+                               *       - 00171 00315
+%0                               *       - 0021C
+%1                               *       - 0016C 00310
+%2                               *       - 00256 00337 004D2 004F5 00509 00531
+%3                               *       - 0051D 00536
+%<                               *       - 004D7
+%=                               *       - 004FA 00522
+%IP                              *       - 001CD
+%SQRT                            *       - 001C8
+%^                               *       - 0025B 0033C
+
+'                                *       - 0019D 00282 002EF 0031A 00363 00451
+
+1GETLAM                          *       - 004CD 004F0 00518 00545
+
+>TCOMP                           *       - 00198 0044C
+
+ABND                             *       - 003AB 00490 00495 0054F 0055E
+
+BIND                             *       - 000F1 00159 00247 003EB 004C3
+
+CK&DISPATCH0                     *       - 000CF
+CK1NOLASTWD                      *       - 000CA
+COERCE                           *       - 00176 001D2 00260 0026E 0029E 00341
+                                 + 0034F 0037F 003F9
+CONFIG                           * 0056D - 0002C
+
+DO                               *       - 00185 001F0 002AC 00408
+DOBINT                           *       - 0017B 001D7 001E6 00221 003FE 00577
+DOCOL                            *       - 000C5 000D9 00114 0015E 001BA 00212
+                                 + 00217 002CE 00397 003C4 0042A 004AF 004C8
+                                 + 004E1 00504 0052C 00559 0056D
+DOHSTR                           *       - 00031 000A6
+DOLAM                            *       - 000E3 000F6 00119 0014B 00163 0018A
+                                 + 001A2 001BF 001F5 00230 00239 00265 00287
+                                 + 00295 002A3 002B1 002D8 002E1 002F4 00307
+                                 + 0031F 00346 00368 00376 00384 003D3 003F0
+                                 + 0040D 0042F 00456 0047D
+DOLIB                            *       - 00000
+DOLIST                           *       - 000DE 00137 00146 0022B 003CE 004B4
+DOROMP                           *       - 000FF 00127 0049A
+DROP                             *       - 00208 002C4 00420
+DUPTYPELIST?                     *       - 0010A
+
+ExitAtLOOP                       *       - 0039C
+
+FALSE                            *       - 0013C 002D3
+
+GRACEFUL_EXIT                    * 00559 - 000BA
+
+HOMEDIR                          *       - 00572
+HasH200                          * 00031 - 0001D
+
+INDEX@                           *       - 001FE 0024C 00273 00416 00442
+IT                               *       - 0010F 0020D 002C9 00392 00425
+
+JINDEX@                          *       - 002BA 0032D 00354
+
+LESS_THAN_4                      * 004AF - 000B5
+LIB200                           * 00005 -
+LOOP                             *       - 001B0 003A6 003BA 00473
+LinK200                          * 000A6 - 00027
+
+NTHELCOMP                        *       - 00203 002BF 0041B
+NULLLAM                          *       - 004B9
+NULL{}                           *       - 003C9 004E6
+
+ONE{}N                           *       - 0050E
+
+PUTLIST                          *       - 002EA
+
+ROMID200                         = 00200 -
+RomId                            = 00200 -
+
+SEMI                             *       - 000EC 00132 00141 00154 001B5 00242
+                                 + 00302 003A1 003B0 003B5 003BF 003E6 0046E
+                                 + 00478 004A5 004AA 004BE 004EB 00513 00540
+                                 + 0054A 00554 00568 00586
+STO                              *       - 001AB 00290 002FD 00328 00371 00469
+SWAP                             *       - 00122
+SYS200                           * 0001A -
+SYSEND200                        * 0058F - 00005
+
+TRUE                             *       - 00193
+TWO{}N                           *       - 0053B
+
+UNCOERCE                         *       - 00251 00332 00447
+
+XEQSETLIB                        *       - 00581
+
+case                             *       - 004DC 004FF 00527
+
+real                             *       - 000D4
+
+xKILL                            *       - 00563
+xPRIMES                          * 000C5 - 000B0
+
+~GRACEFUL_EXIT                   = 02200 - 0012C 0049F
+~LESS_THAN_4                     = 01200 - 00104
+~xPRIMES                         = 00200 - 000BF
+
+/SLOAD:  End of Saturn Loader Execution
